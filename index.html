@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>Tic Tac Tito</title>
+    </head>
+    <body>
+        <div class="pregame-screen">
+            <div class="overlay">
+            </div>
+            <div id="playersPopup" class="popup rounded">
+                <p>Enter player names</p>
+                <div class="player-input-container">
+                    <label for="playerOneNameInput" class="input-label">Player One:</label><br>
+                    <input id="playerOneNameInput" class="input rounded" type="text" name="playerOneName" maxlength="20" placeholder="Player One">
+                </div>
+                <br>
+                <div class="player-input-container">
+                    <label for="playerTwonameInput" class="input-label">Player Two:</label><br>
+                    <input id="playerTwoNameInput" class="input rounded" type="text" name="playerTwoName" maxlength="20" placeholder="Player Two">
+                </div>
+                <div id="startGameDiv" class="rounded btn gunmetal">Start Game</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="top-content">
+                <h1><span class="font cinnabar">Tic</span> <span class="font middle-blue">Tac</span> <span class="font lavender-blush">Tito</span></h1>
+            </div>
+            <div class="main-content">
+                <span id="playerTurn" class="font gunmetal">.</span>
+                <div id="gameBoardContainerDiv" class="rounded">
+                    <div id="gameBoardDiv">
+                        <div id="0" class="game-board-square font"></div>
+                        <div id="1" class="game-board-square font"></div>
+                        <div id="2" class="game-board-square font"></div>
+                        <div id="3" class="game-board-square font"></div>
+                        <div id="4" class="game-board-square font"></div>
+                        <div id="5" class="game-board-square font"></div>
+                        <div id="6" class="game-board-square font"></div>
+                        <div id="7" class="game-board-square font"></div>
+                        <div id="8" class="game-board-square font"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
